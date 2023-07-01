@@ -1,0 +1,6 @@
+__pycache__
+.vscode
+venv
+docker.env
+.idea/
+test.py
