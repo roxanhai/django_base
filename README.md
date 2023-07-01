@@ -1,2 +1,30 @@
-# django_base
-Base source cho các dự án DJANGO 
+# DRF Base
+
+------------------
+
+## Usage
+
+---
+
+### Run for dev
+
+- install requirements
+
+```
+python3 -m venv venv
+source venv/bin/activate 
+pip install -r requirements.txt 
+```
+
+- Run server
+
+```
+python3 manage.py runserver
+```
+
+- Migrate and Migrations (After changing Orm Model)
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
