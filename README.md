@@ -28,3 +28,8 @@ python3 manage.py runserver
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
+
+- Check Swagger docs:
+```
+http://127.0.0.1:8000/swagger
+```
